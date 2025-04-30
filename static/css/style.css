@@ -333,6 +333,7 @@ header {
   background: transparent linear-gradient(75deg, #15D6E6 0%, #05A9F4 0%, #005BBE 100%) 0% 0% no-repeat padding-box;
 }
 header h1 {
+  width: 100%;
   text-align: center;
   font-size: 36px;
   letter-spacing: 1.8px;
@@ -344,22 +345,7 @@ header h1 {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-@media (max-width: 768px) {
-  header h1 {
-    font-size: 30px;
-    letter-spacing: 1.5px;
-  }
-}
 
-@media (max-width: 768px) {
-  header {
-    height: 182px;
-  }
-  header h1 {
-    font-size: 30px;
-    letter-spacing: 1.5px;
-  }
-}
 h2 {
   font-size: 30px;
   color: #333333;
@@ -402,7 +388,6 @@ p {
 }
 
 .liststyle_dot {
-  padding-left: 16px;
   position: relative;
 }
 .liststyle_dot li {
@@ -531,20 +516,23 @@ footer p {
 }
 
 @media (max-width: 768px) {
+  header {
+    height: 182px;
+  }
+  header h1 {
+    font-size: 30px;
+    letter-spacing: 1.5px;
+  }
   .today_tomorrow,
   .weekly {
     flex-direction: column;
-    gap: 32px;
+    gap: 30px;
   }
   .day_item {
     max-width: 100%;
   }
   .day_temperature {
     max-width: 100%;
-  }
-  .day_precipitation {
-    flex-direction: column;
-    gap: 8px;
   }
 }
 .u-mt0 {
