@@ -23,8 +23,10 @@ $ yarn js
 ・既存の資材をなるべく利用する様に作成する事として実施しました。
 
 ・staticのディレクトリに配置するよりも、纏めた方がより実践的と思い下記ディレクトリにファイルを新規作成しました。
-```/_src/js/meteo.js
-/_src/sass/layout/layout.scss```
+```
+/_src/js/meteo.js
+/_src/sass/layout/layout.scss
+```
 
 ・ファビコンについては、icoファイルが無いので設定していません。
 
