@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+// core
+@import "../core/variables.scss";
+@import "../core/mixins.scss";
+
+// foundation
+@import "../foundation/normalize.scss";
+@import "../foundation/reset.scss";
+@import "../foundation/base.scss";
+@import "../foundation/fonts.scss";
+
+// layout
+@import "../layout/layout.scss";
+
+// objects
+@import "../object/component/_dummy.scss";
+@import "../object/project/_dummy.scss" as dummy2;
+@import "../object/utility/margin.scss";
+@import "../object/utility/padding.scss";
+@import "../object/utility/utils.scss";
